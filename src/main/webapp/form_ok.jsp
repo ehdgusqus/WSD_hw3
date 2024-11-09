@@ -7,7 +7,6 @@
 </head>
 <body>
 <%
-    // UTF-8 설정
     request.setCharacterEncoding("UTF-8");
 
     // form.html에서 받아온 값 저장
