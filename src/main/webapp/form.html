@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 유효성 검사 함수
+        function validateForm() {
+            var fname = document.forms["form1"]["firstname"].value;
+            var lname = document.forms["form1"]["lastname"].value;
+            if (fname === "" || lname === "") {
+                alert("이름과 성을 모두 입력해 주세요.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<div>
+    <form name="form1" action="form_ok.jsp" onsubmit="return validateForm()" method="post">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="USA">USA</option>
+        </select>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Your age.." required><br>
+
+        <label>Gender</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" placeholder="Your comments.."></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>
