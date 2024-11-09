@@ -1,4 +1,3 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ include file="top.jsp" %>
 <h2 class="my-4">새 게시물 작성</h2>
 <form action="write_ok.jsp" method="post" onsubmit="return validateForm()">
