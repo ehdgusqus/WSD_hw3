@@ -1,4 +1,3 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 </div> <!-- .content 닫기 -->
 <hr>
 <!-- 푸터 -->
