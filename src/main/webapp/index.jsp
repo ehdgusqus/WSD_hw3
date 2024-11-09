@@ -30,7 +30,7 @@
 
 <div class="container">
     <h1 class="display-4">Welcome to HelloJSP!</h1>
-    <p class="lead">This is a simple JSP application. Use the navigation above to get started.</p>
+
     <div class="row mt-5">
         <div class="col-md-4 offset-md-2">
             <a href="list.jsp" class="btn btn-primary btn-lg btn-block">View Posts</a>
