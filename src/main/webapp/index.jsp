@@ -29,7 +29,6 @@
 
 <div class="container">
     <h1 class="display-4">Hello!</h1>
-
     <div class="row mt-5">
         <div class="col-md-4 offset-md-2">
             <a href="list.jsp" class="btn btn-primary btn-lg btn-block">게시물 목록 보기</a>
