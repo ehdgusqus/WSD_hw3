@@ -20,7 +20,6 @@
     %>
     <tr>
         <td><%= row[0] %></td>
-        <!-- 제목을 클릭하면 view.jsp로 이동하며, 게시물 ID를 파라미터로 전달 -->
         <td><a href="view.jsp?id=<%= row[0] %>"><%= row[1] %></a></td>
         <td><%= row[2] %></td>
         <td><%= row[3] %></td>
