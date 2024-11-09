@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ include file="top.jsp" %>
 <%
     // 삭제할 게시물의 ID를 파라미터로 받기.
