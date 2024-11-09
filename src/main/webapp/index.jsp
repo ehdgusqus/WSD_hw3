@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -28,13 +29,14 @@
 </nav>
 
 <div class="container">
-    <h1 class="display-4">Hello!</h1>
+    <h1 class="display-4">Welcome to HelloJSP!</h1>
+    <p class="lead">This is a simple JSP application. Use the navigation above to get started.</p>
     <div class="row mt-5">
         <div class="col-md-4 offset-md-2">
-            <a href="list.jsp" class="btn btn-primary btn-lg btn-block">게시물 목록 보기</a>
+            <a href="list.jsp" class="btn btn-primary btn-lg btn-block">View Posts</a>
         </div>
         <div class="col-md-4">
-            <a href="write.jsp" class="btn btn-success btn-lg btn-block">새 게시물 작성하기</a>
+            <a href="write.jsp" class="btn btn-success btn-lg btn-block">Create a New Post</a>
         </div>
     </div>
 </div>
