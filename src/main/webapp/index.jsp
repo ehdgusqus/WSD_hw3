@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -29,7 +30,6 @@
 
 <div class="container">
     <h1 class="display-4">Hello!</h1>
-    <p class="lead">22200356</p>
 
     <div class="row mt-5">
         <div class="col-md-4 offset-md-2">
