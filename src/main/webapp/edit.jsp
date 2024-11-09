@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ include file="top.jsp" %>
 <h2 class="my-4">게시물 수정</h2>
 <form action="edit_ok.jsp" method="post">
