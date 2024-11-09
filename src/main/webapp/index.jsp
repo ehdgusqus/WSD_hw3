@@ -28,8 +28,8 @@
 </nav>
 
 <div class="container">
-    <h1 class="display-4">환영합니다!</h1>
-    <p class="lead">HelloJSP 애플리케이션에 오신 것을 환영합니다. 아래 메뉴를 통해 원하는 작업을 선택하세요.</p>
+    <h1 class="display-4">Hello!</h1>
+    <p class="lead">22200356</p>
 
     <div class="row mt-5">
         <div class="col-md-4 offset-md-2">
